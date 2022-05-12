@@ -26,7 +26,7 @@
     </div>
   </div>
 </div>
-<div *ngIf="!isLoading && !files.length">
+<div *ngIf="!isLoading && !files.length && !errorOccurred">
   <h1>No data to display right now.</h1>
 </div>
 <div *ngIf="!isLoading && errorOccurred">
